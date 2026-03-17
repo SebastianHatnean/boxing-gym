@@ -32,7 +32,7 @@ export const siteContent = {
       description: 'Grupe pentru incepatori, juniori, fitness si performanta.',
     },
     image: {
-      src: 'https://images.unsplash.com/photo-1517438476312-10d79c077509?auto=format&fit=crop&w=1200&q=80',
+      src: new URL('../assets/box-heero-section2.jpg', import.meta.url).href,
       alt: 'Sportiv intr-o sala de box moderna, pregatit pentru antrenament',
     },
   },
